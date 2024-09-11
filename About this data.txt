@@ -1,0 +1,25 @@
+About this data
+======================================================
+
+This dataset is multi-label hate speech and abusive language detection in the Indonesian Twitter. The dataset can be seen at re_dataset.csv with labels information as follows:
+
+HS : hate speech label;
+Abusive : abusive language label;
+HS_Individual : hate speech targeted to an individual;
+HS_Group : hate speech targeted to a group;
+HS_Religion : hate speech related to religion/creed;
+HS_Race : hate speech related to race/ethnicity;
+HS_Physical : hate speech related to physical/disability;
+HS_Gender : hate speech related to gender/sexual orientation;
+HS_Gender : hate related to other invective/slander;
+HS_Weak : weak hate speech;
+HS_Moderate : moderate hate speech;
+HS_Strong : strong hate speech.
+
+For each label, 1 means yes, 0 means no.
+
+Additional data are provided in this assignment:
+1. new_kamusalay.csv : contains list of typo and slang words and the mapping to formal words
+	example: 	jgn --> jangan
+			beud --> banget
+2. abusive.csv : contains list of abusive words 
